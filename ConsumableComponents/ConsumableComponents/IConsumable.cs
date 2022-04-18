@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsumableComponents
+﻿namespace ConsumableComponents
 {
     public interface IConsumable
     {
-        public void Eat();
+        public string Name { get; set; }
+        public void Eat(Player player);
         public void AddEffects();
         public void RemoveEffects();
         public void DestroyConsumable();
