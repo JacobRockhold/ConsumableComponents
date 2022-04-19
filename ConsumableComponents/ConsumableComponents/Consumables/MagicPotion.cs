@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsumableComponents.Consumables
 {
-    public class Apple : IConsumable
+    public class MagicPotion : IConsumable
     {
-        public string Name { get; set; } = "Apple";
-        public int HealthGained { get; set; } = 2;
+        public string Name { get; set; } = "Magic Potion";
+        public int HealthGained { get; set; } = -1;
         public int StrengthGained { get; set; } = 0;
-        public int MagicGained { get; set; } = 0;
+        public int MagicGained { get; set; } = 50;
     }
 }

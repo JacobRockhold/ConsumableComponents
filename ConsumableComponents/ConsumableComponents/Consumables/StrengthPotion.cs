@@ -3,25 +3,8 @@
     public class StrengthPotion : IConsumable
     {
         public string Name { get => "Strength Potion"; set => _ = "Strength Potion"; }
-
-        public void AddEffects()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DestroyConsumable()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Eat(Player player)
-        {
-            player.Strength += 50;
-        }
-
-        public void RemoveEffects()
-        {
-            throw new NotImplementedException();
-        }
+        public int HealthGained { get; set; } = 0;
+        public int StrengthGained { get; set; } = 50;
+        public int MagicGained { get; set; } = 0;
     }
 }

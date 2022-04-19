@@ -1,27 +1,10 @@
-﻿namespace ConsumableComponents
+﻿namespace ConsumableComponents.Consumables
 {
     public class ApplePie : IConsumable
     {
         public string Name { get => "Apple Pie"; set => _ = "Apple Pie"; }
-
-        public void AddEffects()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DestroyConsumable()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Eat(Player player)
-        {
-            player.Health += 25;
-        }
-
-        public void RemoveEffects()
-        {
-            throw new NotImplementedException();
-        }
+        public int HealthGained { get; set; } = 10;
+        public int StrengthGained { get; set; } = 0;
+        public int MagicGained { get; set; } = 0;
     }
 }
