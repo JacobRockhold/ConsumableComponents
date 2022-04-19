@@ -4,7 +4,6 @@ C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\Consum
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\bin\Debug\net6.0\ConsumableComponents.dll
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\bin\Debug\net6.0\ref\ConsumableComponents.dll
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\bin\Debug\net6.0\ConsumableComponents.pdb
-C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\obj\Debug\net6.0\ConsumableComponents.csproj.AssemblyReference.cache
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\obj\Debug\net6.0\ConsumableComponents.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\obj\Debug\net6.0\ConsumableComponents.AssemblyInfoInputs.cache
 C:\Users\mattj\Documents\GitHub\ConsumableComponents\ConsumableComponents\ConsumableComponents\obj\Debug\net6.0\ConsumableComponents.AssemblyInfo.cs
